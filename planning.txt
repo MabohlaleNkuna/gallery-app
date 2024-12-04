@@ -16,12 +16,14 @@ The goal of this project is to create a mobile image gallery app that allows use
   - Install necessary dependencies for the app:
     - For typescript: npm install --save-dev typescript @types/react @types/react-native
                     :  npx tsc --init
+    expo install expo-camera expo-media-library
     - For image capture: react-native-camera, expo-camera
     - For map integration: react-native-maps, expo-location
     - For SQLite: react-native-sqlite-storage, expo-sqlite
     - For geolocation: react-native-geolocation-service, expo-location
     - For state management (optional): redux or context API
     - For UI elements: react-native-paper, react-navigation
+     -npm install @react-native-community/cli-server-api --save 
 
     Install dependencies example:
     npm install react-native-camera react-native-maps expo-location react-native-sqlite-storage
